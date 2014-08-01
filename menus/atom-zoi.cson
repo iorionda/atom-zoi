@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable atom-zoi': 'atom-zoi:toggle'
+      'Enable atom-zoi': 'atom-zoi:insert'
 
 'menu': [
   {
@@ -9,7 +9,7 @@
     'submenu': [
       'label': 'atom-zoi'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'atom-zoi:toggle' }
+        { 'label': 'Insert', 'command': 'atom-zoi:insert' }
       ]
     ]
   }
