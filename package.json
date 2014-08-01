@@ -1,9 +1,11 @@
 {
   "name": "atom-zoi",
   "main": "./lib/atom-zoi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "今日も一日がんばるぞい",
-  "activationEvents": ["atom-zoi:insert"],
+  "activationEvents": [
+    "atom-zoi:insert"
+  ],
   "repository": "https://github.com/iori-o/atom-zoi",
   "license": "MIT",
   "engines": {
